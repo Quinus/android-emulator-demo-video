@@ -1,6 +1,8 @@
 # android-emulator-demo-video
 
-An [opencode](https://opencode.ai) skill for recording demo videos of Android apps running on an emulator, driven entirely by `adb` — no manual interaction needed.
+An [agent skill](https://agentskills.io) for recording demo videos of Android apps running on an emulator, driven entirely by `adb` — no manual interaction needed.
+
+Compatible with any harness that supports the Agent Skills format (e.g. opencode, Claude Code, Cursor, Codex).
 
 ## What it does
 
@@ -11,7 +13,13 @@ An [opencode](https://opencode.ai) skill for recording demo videos of Android ap
 
 ## Install
 
-Copy or clone this skill into your skills directory:
+Using [skills.sh](https://skills.sh):
+
+```sh
+npx skills add Quinus/android-emulator-demo-video
+```
+
+Or manually, copy or clone this skill into your skills directory:
 
 ```sh
 git clone https://github.com/Quinus/android-emulator-demo-video ~/.config/opencode/skills/android-emulator-demo-video
@@ -24,4 +32,4 @@ git clone https://github.com/Quinus/android-emulator-demo-video ~/.config/openco
 
 ## Usage
 
-Ask opencode to demo, record, or capture a video of a feature, flow, ticket, or bug on a running Android emulator. The skill handles device selection, scouting the navigation path before recording, capturing video plus per-step screenshots together, and finalizing the output files.
+Ask your agent to demo, record, or capture a video of a feature, flow, ticket, or bug on a running Android emulator. The skill handles device selection, scouting the navigation path before recording, capturing video plus per-step screenshots together, and finalizing the output files.
