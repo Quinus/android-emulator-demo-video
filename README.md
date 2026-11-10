@@ -22,7 +22,8 @@ npx skills add Quinus/android-emulator-demo-video
 Or manually, copy or clone this skill into your skills directory:
 
 ```sh
-git clone https://github.com/Quinus/android-emulator-demo-video ~/.config/opencode/skills/android-emulator-demo-video
+git clone https://github.com/Quinus/android-emulator-demo-video
+cp -r android-emulator-demo-video/skills/android-emulator-demo-video ~/.config/opencode/skills/
 ```
 
 ## Requirements
